@@ -1,14 +1,12 @@
 package example;
 
 
-import com.example.BlogApplication;
-import com.example.dao.mapper.CommentMapper;
-import com.example.dao.pojo.Comment;
+import com.admin.BlogApplication;
+import com.admin.dao.mapper.CommentMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 
 @SpringBootTest(classes = BlogApplication.class)
